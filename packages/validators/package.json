@@ -1,0 +1,22 @@
+{
+  "name": "@requestly/validators",
+  "version": "1.0.0",
+  "description": "Validation utilities for Requestly",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": ["requestly", "validation", "validators"],
+  "author": "Requestly",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "rollup": "^2.79.0"
+  },
+  "peerDependencies": {},
+  "dependencies": {}
+}

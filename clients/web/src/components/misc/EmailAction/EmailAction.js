@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import SpinnerCard from "../SpinnerCard";
 import RedirectWithTimer from "../RedirectWithTimer";
 // UTILS
-import { getQueryParamsAsMap } from "../../../utils/URLUtils";
+import { getQueryParamsAsMap } from "@requestly/utils";
 // CONSTANTS
 import APP_CONSTANTS from "../../../config/constants";
 const { PATHS } = APP_CONSTANTS;

@@ -11,7 +11,7 @@ import {
   resendVerificationEmailHandler,
   reloadAuth,
 } from "../../../utils/AuthUtils";
-import { getQueryParamsAsMap } from "../../../utils/URLUtils";
+import { getQueryParamsAsMap } from "@requestly/utils";
 import ProCard from "@ant-design/pro-card";
 import { Button } from "antd";
 import { useNavigate } from "react-router-dom";

@@ -14,7 +14,7 @@ import { trackAddTeamMemberFailure, trackAddTeamMemberSuccess } from "modules/an
 import { trackAddMembersInWorkspaceModalViewed } from "modules/analytics/events/common/teams";
 import InviteErrorModal from "./InviteErrorModal";
 import PageLoader from "components/misc/PageLoader";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { isVerifiedBusinessDomainUser } from "utils/Misc";
 import APP_CONSTANTS from "config/constants";
 import EmailInputWithDomainBasedSuggestions from "components/common/EmailInputWithDomainBasedSuggestions";

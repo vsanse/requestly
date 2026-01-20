@@ -1,5 +1,5 @@
 import { Invite, TeamInviteMetadata } from "types";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { getColorFromString } from "utils/getColorFromString";
 
 export const getUniqueColorForUser = (userEmail: string) => {

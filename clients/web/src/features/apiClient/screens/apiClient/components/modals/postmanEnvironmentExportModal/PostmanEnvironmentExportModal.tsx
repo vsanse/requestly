@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { Modal } from "antd";
-import { getFormattedDate } from "utils/DateTimeUtils";
+import { getFormattedDate } from "@requestly/utils";
 import { toast } from "utils/Toast";
 import "./postmanEnvironmentExportModal.scss";
 import fileDownload from "js-file-download";

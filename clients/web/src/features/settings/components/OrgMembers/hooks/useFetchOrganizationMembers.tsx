@@ -3,7 +3,7 @@ import { getFunctions, httpsCallable } from "firebase/functions";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { OrgMember } from "../types";
 import { LOGGER as Logger } from "@requestly/utils";
 import { isCompanyEmail } from "utils/mailCheckerUtils";

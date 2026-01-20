@@ -1,6 +1,6 @@
 import React, { ReactNode, useMemo } from "react";
 import { Col, Row, Typography } from "antd";
-import { secToMinutesAndSeconds } from "utils/DateTimeUtils";
+import { secToMinutesAndSeconds } from "@requestly/utils";
 import { ClockCircleOutlined } from "@ant-design/icons";
 import { isAppOpenedInIframe } from "utils/AppUtils";
 import { AiFillCaretRight } from "@react-icons/all-files/ai/AiFillCaretRight";

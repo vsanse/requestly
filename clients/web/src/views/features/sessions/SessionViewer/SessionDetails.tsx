@@ -21,7 +21,7 @@ import { useSelector } from "react-redux";
 import DownArrow from "assets/icons/down-arrow.svg?react";
 import { cloneDeep } from "lodash";
 import { getConsoleLogs, getInactiveSegments, getPageNavigationLogs } from "./sessionEventsUtils";
-import { epochToDateAndTimeString, msToHoursMinutesAndSeconds } from "utils/DateTimeUtils";
+import { epochToDateAndTimeString, msToHoursMinutesAndSeconds } from "@requestly/utils";
 import { RQButton } from "lib/design-system/components";
 import { removeElement } from "utils/domUtils";
 import { isAppOpenedInIframe } from "utils/AppUtils";

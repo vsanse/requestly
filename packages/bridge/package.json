@@ -1,0 +1,23 @@
+{
+  "name": "@requestly/bridge",
+  "version": "1.0.0",
+  "description": "Browser extension bridge for message passing and event communication",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "browser-extension",
+    "chrome-extension",
+    "message-passing",
+    "bridge"
+  ],
+  "author": "Requestly",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.79.1"
+  }
+}

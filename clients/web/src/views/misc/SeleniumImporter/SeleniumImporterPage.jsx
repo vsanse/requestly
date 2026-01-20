@@ -78,28 +78,26 @@ const SeleniumImporterPage = () => {
   const fetchRules = (apiKey) => {
     setStep2({ inProgress: true, success: false, error: null });
     notifySelenium("STEP_2_IN_PROGRESS");
-    return new Promise((resolve, reject) => {
-      fetch("https://api2.requestly.io/v1/rules", {
-        method: "GET",
-        headers: {
-          "x-api-key": apiKey,
-        },
-      })
-        .then((response) => response.json())
-        .then((result) => {
-          if (result?.success) {
-            notifySelenium("STEP_2_SUCCESS");
-            setStep2({ inProgress: false, success: true, error: null });
-            resolve(result.data);
-          } else {
-            throw new Error("Failed to fetch rules");
-          }
-        })
-        .catch((error) => {
-          notifySelenium("STEP_2_FAIL");
-          setStep2({ inProgress: false, success: false, error });
-          reject(error);
-        });
+    return new Promise(async (resolve, reject) => {
+      try {
+        const { createApiClient } = await import("@requestly/api-client");
+        const apiClient = createApiClient("https://api2.requestly.io");
+        apiClient.rules.setAuthToken(apiKey);
+
+        const result = await apiClient.rules.getRules();
+
+        if (result?.success) {
+          notifySelenium("STEP_2_SUCCESS");
+          setStep2({ inProgress: false, success: true, error: null });
+          resolve(result.data);
+        } else {
+          throw new Error("Failed to fetch rules");
+        }
+      } catch (error) {
+        notifySelenium("STEP_2_FAIL");
+        setStep2({ inProgress: false, success: false, error });
+        reject(error);
+      }
     });
   };
 

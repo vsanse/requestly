@@ -6,7 +6,7 @@ import { RQButton } from "lib/design-system/components";
 import { CloseOutlined } from "@ant-design/icons";
 import { httpsCallable, getFunctions } from "firebase/functions";
 import { getPendingInvites } from "backend/workspace";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { isEmailVerified } from "utils/AuthUtils";
 import { globalActions } from "store/slices/global/slice";
 import { capitalize } from "lodash";

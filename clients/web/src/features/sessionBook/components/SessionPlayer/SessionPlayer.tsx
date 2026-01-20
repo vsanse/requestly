@@ -19,7 +19,7 @@ import { RQButton } from "lib/design-system/components";
 import { Select, Switch } from "antd";
 import { PlayerState } from "features/sessionBook/types";
 import { getInactiveSegments } from "views/features/sessions/SessionViewer/sessionEventsUtils";
-import { msToMinutesAndSeconds } from "utils/DateTimeUtils";
+import { msToMinutesAndSeconds } from "@requestly/utils";
 import PlayerFrameOverlay from "./components/PlayerOverlay/PlayerOverlay";
 import { useTheme } from "styled-components";
 import { useHasChanged } from "hooks";

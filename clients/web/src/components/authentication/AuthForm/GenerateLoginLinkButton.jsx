@@ -1,7 +1,7 @@
 import { RQButton } from "lib/design-system/components";
 import { useCallback } from "react";
 import "./AuthForm.css";
-import { isEmailValid } from "utils/FormattingHelper";
+import { isEmailValid } from "@requestly/utils";
 import { toast } from "utils/Toast";
 import { sendEmailLinkForSignin } from "actions/FirebaseActions";
 import { useSelector } from "react-redux";

@@ -7,7 +7,7 @@ import { createTabStore, TabState } from "./tabStore";
 import { AbstractTabSource } from "../helpers/tabSource";
 import { TAB_SOURCES_MAP } from "../constants";
 import { setLastUsedContextId } from "features/apiClient/store/apiClientFeatureContext/apiClientFeatureContext.store";
-import { Try } from "utils/try";
+import { Try } from "@requestly/utils";
 
 type TabId = number;
 type SourceName = string;

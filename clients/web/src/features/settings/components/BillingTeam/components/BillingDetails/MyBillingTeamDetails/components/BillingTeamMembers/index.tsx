@@ -20,7 +20,7 @@ import { MdOutlinePaid } from "@react-icons/all-files/md/MdOutlinePaid";
 import { MdOutlineAdminPanelSettings } from "@react-icons/all-files/md/MdOutlineAdminPanelSettings";
 import { MdPersonOutline } from "@react-icons/all-files/md/MdPersonOutline";
 import { MdOutlineMoneyOffCsred } from "@react-icons/all-files/md/MdOutlineMoneyOffCsred";
-import { getLongFormatDateString } from "utils/DateTimeUtils";
+import { getLongFormatDateString } from "@requestly/utils";
 import { isMenuItemDisabled } from "./utils";
 import {
   trackBillingTeamActionClicked,

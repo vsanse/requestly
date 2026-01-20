@@ -1,4 +1,4 @@
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { EmailType } from "@requestly/shared/types/common";
 import { getEmailType } from "utils/mailCheckerUtils";
 /* was created for integrations but no longer used */

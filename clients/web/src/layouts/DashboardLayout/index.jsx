@@ -23,7 +23,7 @@ import { PlanExpiredBanner } from "componentsV2/banners/PlanExpiredBanner";
 import { getShouldShowDesktopConnected, useDesktopAppConnection } from "hooks/useDesktopAppConnection";
 import "./DashboardLayout.scss";
 import { ConnectedToDesktopView } from "./ConnectedToDesktopView/ConnectedToDesktopView";
-import { getUserOS } from "utils/osUtils";
+import { getUserOS } from "@requestly/utils";
 import { isFeatureCompatible } from "utils/CompatibilityUtils";
 import FEATURES from "config/constants/sub/features";
 import useRootPathRedirector from "hooks/useRootPathRedirector";

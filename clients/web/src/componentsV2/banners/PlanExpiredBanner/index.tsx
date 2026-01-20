@@ -6,7 +6,7 @@ import { RQButton } from "lib/design-system/components";
 import { IoMdClose } from "@react-icons/all-files/io/IoMdClose";
 import { globalActions } from "store/slices/global/slice";
 import { getPlanNameFromId } from "utils/PremiumUtils";
-import { getPrettyPlanName } from "utils/FormattingHelper";
+import { getPrettyPlanName } from "@requestly/utils";
 import APP_CONSTANTS from "config/constants";
 import { SOURCE } from "modules/analytics/events/common/constants";
 import "./index.scss";

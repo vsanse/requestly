@@ -21,7 +21,7 @@ import { copyToClipBoard } from "utils/Misc";
 import "../importer-components.css";
 import { parseRulesFromResourceOverride } from "modules/rule-adapters/resource-override-rule-adapters/parseRulesFromResourceOverride";
 import { Rule } from "@requestly/shared/types/entities/rules";
-import { generateObjectId } from "utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import {
   trackResourceOverrideSettingsImportComplete,
   trackResourceOverrideSettingsImportDocsClicked,

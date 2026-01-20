@@ -8,7 +8,7 @@ import { ExternalDomainWarningBanner } from "./components/ExternalDomainWarningB
 import { LOGGER as Logger } from "@requestly/utils";
 import { inviteUsersToBillingTeam } from "backend/billing";
 import { toast } from "utils/Toast";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import {
   trackBillingTeamInviteSendingFailed,
   trackBillingTeamInviteSentSuccessfully,

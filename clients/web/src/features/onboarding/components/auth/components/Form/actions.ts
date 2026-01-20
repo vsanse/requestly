@@ -1,4 +1,4 @@
-import { isEmailValid } from "utils/FormattingHelper";
+import { isEmailValid } from "@requestly/utils";
 import { toast } from "utils/Toast.js";
 
 //AUTH ACTIONS

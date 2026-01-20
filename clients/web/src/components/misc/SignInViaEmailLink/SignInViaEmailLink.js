@@ -7,7 +7,7 @@ import { RQButton, RQInput } from "lib/design-system/components";
 import { globalActions } from "store/slices/global/slice";
 import { getAppMode } from "../../../store/selectors";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
-import { isEmailValid } from "../../../utils/FormattingHelper";
+import { isEmailValid } from "@requestly/utils";
 import { signInWithEmailLink } from "../../../actions/FirebaseActions";
 import { handleLogoutButtonOnClick } from "features/onboarding/components/auth/components/Form/actions";
 import { redirectToRoot } from "utils/RedirectionUtils";

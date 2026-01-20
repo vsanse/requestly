@@ -3,7 +3,7 @@ import { getAuth, applyActionCode, sendEmailVerification } from "firebase/auth";
 import { submitAttrUtil } from "./AnalyticsUtils";
 import DataStoreUtils from "./DataStoreUtils";
 import { toast } from "utils/Toast.js";
-import { getDateString } from "./DateTimeUtils";
+import { getDateString } from "@requestly/utils";
 import APP_CONSTANTS from "config/constants";
 import {
   trackEmailVerificationSendAttempted,

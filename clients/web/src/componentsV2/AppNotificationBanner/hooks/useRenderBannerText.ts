@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { useSelector } from "react-redux";
-import { getCompanyNameFromEmail, getPrettyPlanName } from "utils/FormattingHelper";
+import { getCompanyNameFromEmail, getPrettyPlanName } from "@requestly/utils";
 import { isCompanyEmail } from "utils/mailCheckerUtils";
 import { Banner, BANNER_ID } from "../banner.types";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";

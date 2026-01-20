@@ -6,7 +6,7 @@ import { CreateWorkspaceFooter } from "../CreateWorkspaceFooter/CreateWorkspaceF
 import { CreateWorkspaceArgs } from "../WorkspaceCreationView";
 import "./sharedWorkspaceCreationView.scss";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { WorkspaceType } from "features/workspaces/types";
 
 export const SharedWorkspaceCreationView = ({

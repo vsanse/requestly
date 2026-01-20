@@ -3,7 +3,7 @@ import { without } from "lodash";
 import { getFunctions, httpsCallable } from "firebase/functions";
 import { useSelector } from "react-redux";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
-import { getDomainFromEmail, isEmailValid } from "utils/FormattingHelper";
+import { getDomainFromEmail, isEmailValid } from "@requestly/utils";
 import CreatableSelect from "react-select/creatable";
 import { MultiValue } from "react-select";
 import { isCompanyEmail } from "utils/mailCheckerUtils";

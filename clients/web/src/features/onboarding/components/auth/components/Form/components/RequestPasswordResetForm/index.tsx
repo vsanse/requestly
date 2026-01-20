@@ -3,7 +3,7 @@ import APP_CONSTANTS from "config/constants";
 import { BiArrowBack } from "@react-icons/all-files/bi/BiArrowBack";
 import { RQButton } from "lib/design-system/components";
 import { AuthFormInput } from "../AuthFormInput";
-import { isEmailValid } from "utils/FormattingHelper";
+import { isEmailValid } from "@requestly/utils";
 import { toast } from "utils/Toast";
 import { handleForgotPasswordButtonOnClick } from "../../actions";
 import "./index.scss";

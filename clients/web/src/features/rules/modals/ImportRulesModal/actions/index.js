@@ -1,7 +1,7 @@
 import { StorageService } from "init";
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import { setIdsOfSingleRulePairs } from "utils/rules/set-ids-of-rules-pairs";
-import { generateObjectId } from "utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import Logger from "lib/logger";
 import { runRuleMigrations } from "utils/rules/ruleMigrations";
 import APP_CONSTANTS from "config/constants";

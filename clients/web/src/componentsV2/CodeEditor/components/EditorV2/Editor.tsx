@@ -12,7 +12,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { globalActions } from "store/slices/global/slice";
 import { getAllEditorToast, getIsCodeEditorFullScreenModeOnboardingCompleted } from "store/selectors";
 import { EditorToastContainer } from "../EditorToast/EditorToastContainer";
-import { getByteSize } from "utils/FormattingHelper";
+import { getByteSize } from "@requestly/utils";
 import CodeEditorToolbar from "./components/Toolbar/Toolbar";
 import { Modal } from "antd";
 import { toast } from "utils/Toast";

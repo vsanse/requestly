@@ -8,7 +8,7 @@ import { ONBOARDING_STEPS } from "features/onboarding/types";
 import AUTH from "config/constants/sub/auth";
 import { handleAppleSignIn, handleEmailSignIn, handleEmailSignUp, handleGoogleSignIn } from "./actions";
 import { globalActions } from "store/slices/global/slice";
-import { getGreeting, isEmailValid } from "utils/FormattingHelper";
+import { getGreeting, isEmailValid } from "@requestly/utils";
 import { toast } from "utils/Toast";
 import { trackAppOnboardingStepCompleted } from "features/onboarding/analytics";
 import { getAppMode } from "store/selectors";

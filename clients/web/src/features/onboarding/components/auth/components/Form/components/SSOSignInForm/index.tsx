@@ -6,7 +6,7 @@ import APP_CONSTANTS from "config/constants";
 import { getFunctions, httpsCallable } from "firebase/functions";
 import Logger from "lib/logger";
 import { MdOutlineWarningAmber } from "@react-icons/all-files/md/MdOutlineWarningAmber";
-import { getDomainFromEmail, isEmailValid } from "utils/FormattingHelper";
+import { getDomainFromEmail, isEmailValid } from "@requestly/utils";
 import { toast } from "utils/Toast";
 import { trackLoginAttemptedEvent, trackLoginFailedEvent } from "modules/analytics/events/common/auth/login";
 import { AUTH_PROVIDERS } from "modules/analytics/constants";

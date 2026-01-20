@@ -5,7 +5,7 @@ import { RQButton } from "lib/design-system/components";
 import { emailSignIn } from "actions/FirebaseActions";
 import { toast } from "utils/Toast";
 import { AuthTypes, getAuthErrorMessage } from "components/authentication/utils";
-import { getGreeting } from "utils/FormattingHelper";
+import { getGreeting } from "@requestly/utils";
 import { MdOutlineEdit } from "@react-icons/all-files/md/MdOutlineEdit";
 import { useAuthScreenContext } from "features/onboarding/screens/auth/context";
 import { useLocation } from "react-router-dom";

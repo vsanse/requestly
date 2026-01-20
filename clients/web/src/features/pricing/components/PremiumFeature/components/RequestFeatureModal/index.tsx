@@ -21,7 +21,7 @@ import { getBillingTeamById } from "store/features/billing/selectors";
 import { trackEnterpriseRequestEvent } from "modules/analytics/events/misc/business/checkout";
 import { trackTeamPlanCardClicked } from "modules/analytics/events/common/teams";
 import { getBillingTeamMemberById } from "store/features/billing/selectors";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 
 interface RequestFeatureModalProps {
   isOpen: boolean;

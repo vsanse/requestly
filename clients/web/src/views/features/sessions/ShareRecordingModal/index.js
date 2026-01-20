@@ -18,7 +18,7 @@ import { fetchCurrentEmails, updateVisibility } from "../api";
 import { Visibility } from "../SessionViewer/types";
 import { useSelector } from "react-redux";
 import { StartFromOffsetInput } from "./components/StartFromOffsetInput/StartFromOffsetInput";
-import { getSecondsFromStringifiedMinSec } from "utils/DateTimeUtils";
+import { getSecondsFromStringifiedMinSec } from "@requestly/utils";
 import "./shareRecordingModal.scss";
 import { isActiveWorkspaceShared } from "store/slices/workspaces/selectors";
 import { copyToClipBoard } from "utils/Misc";

@@ -8,7 +8,7 @@ import { trackTemplateImportCompleted, trackTemplateImportStarted } from "../../
 import { globalActions } from "store/slices/global/slice";
 import { getAppMode } from "store/selectors";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
-import { generateObjectId } from "utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { redirectToRuleEditor } from "utils/RedirectionUtils";
 import { saveRule } from "views/features/rules/RuleEditor/components/Header/ActionButtons/actions";
 import { LOGGER as Logger } from "@requestly/utils";

@@ -5,7 +5,7 @@ import { getPlanNameFromId } from "utils/PremiumUtils";
 import { Badge } from "antd";
 import { trackRenewNowClicked } from "modules/analytics/events/misc/monetizationExperiment";
 import "./index.scss";
-import { getPrettyPlanName } from "utils/FormattingHelper";
+import { getPrettyPlanName } from "@requestly/utils";
 
 export const PlanExpiredBadge = () => {
   const dispatch = useDispatch();

@@ -4,7 +4,7 @@ import { Modal } from "antd";
 import { BiArrowBack } from "@react-icons/all-files/bi/BiArrowBack";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
 import MagicLinkModalContent from "./MagicLinkModalContent";
-import { isEmailValid } from "utils/FormattingHelper";
+import { isEmailValid } from "@requestly/utils";
 import { toast } from "utils/Toast";
 import "./index.css";
 

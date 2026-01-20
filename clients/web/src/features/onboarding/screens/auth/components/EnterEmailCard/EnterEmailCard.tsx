@@ -4,7 +4,7 @@ import { AuthFormInput } from "../RQAuthCard/components/AuthFormInput/AuthFormIn
 import { getFunctions, httpsCallable } from "firebase/functions";
 import { toast } from "utils/Toast";
 import { AuthSyncMetadata } from "../../types";
-import { isEmailValid } from "utils/FormattingHelper";
+import { isEmailValid } from "@requestly/utils";
 import { useAuthScreenContext } from "../../context";
 import LINKS from "config/constants/sub/links";
 import { trackAuthModalShownEvent } from "modules/analytics/events/common/auth/authModal";

@@ -10,7 +10,7 @@ import APP_CONSTANTS from "config/constants";
 import { SOURCE } from "modules/analytics/events/common/constants";
 import "./premiumPlanBadge.scss";
 import { getActiveWorkspaceId } from "store/slices/workspaces/selectors";
-import { getPrettyPlanName } from "utils/FormattingHelper";
+import { getPrettyPlanName } from "@requestly/utils";
 
 const PremiumPlanBadge = () => {
   const dispatch = useDispatch();

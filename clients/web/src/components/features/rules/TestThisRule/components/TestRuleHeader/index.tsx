@@ -6,8 +6,8 @@ import { BottomSheetPlacement, useBottomSheetContext } from "componentsV2/Bottom
 import { trackTestRuleClicked } from "../../analytics";
 import { getCurrentlySelectedRuleData, getIsCurrentlySelectedRuleHasUnsavedChanges } from "store/selectors";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
-import { prefixUrlWithHttps } from "utils/URLUtils";
-import { isValidUrl } from "utils/FormattingHelper";
+import { prefixUrlWithHttps } from "@requestly/utils";
+import { isValidUrl } from "@requestly/utils";
 import { testRuleOnUrl } from "actions/ExtensionActions";
 //@ts-ignore
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";

@@ -3,7 +3,7 @@ import { SYNCING } from "./events/features/constants";
 import Logger from "lib/logger";
 import posthogIntegration from "./integrations/posthog";
 import localIntegration from "./integrations/local";
-import { isEnvAutomation } from "utils/EnvUtils";
+import { isEnvAutomation } from "@requestly/utils";
 import { WorkspaceType } from "features/workspaces/types";
 
 // These are mostly not user-triggered

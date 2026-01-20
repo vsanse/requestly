@@ -1,6 +1,6 @@
 import { trackEvent } from "modules/analytics";
 import { COMMAND_PALETTE } from "./constants";
-import { ParsedOS } from "utils/osUtils";
+import { ParsedOS } from "@requestly/utils";
 
 export const trackCommandPaletteOpened = (os: ParsedOS | null) => {
   const params = { os };

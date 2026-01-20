@@ -1,3 +1,4 @@
 packages:
   - 'clients/*'
+  - 'clients/extension/*'
   - 'packages/*'

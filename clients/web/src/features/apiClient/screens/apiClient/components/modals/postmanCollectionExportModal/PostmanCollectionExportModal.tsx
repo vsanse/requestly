@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { Alert, Modal } from "antd";
 import { RQAPI } from "features/apiClient/types";
-import { getFormattedDate } from "utils/DateTimeUtils";
+import { getFormattedDate } from "@requestly/utils";
 import { toast } from "utils/Toast";
 import "./postmanExportModal.scss";
 import fileDownload from "js-file-download";

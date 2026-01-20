@@ -4,7 +4,7 @@ import { SYNC_CONSTANTS } from "./syncing/syncConstants";
 //UTILS
 import { processRecordsArrayIntoObject } from "./syncing/syncDataUtils";
 import { doSyncRecords } from "./syncing/SyncUtils";
-import { generateObjectId } from "./FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { clientStorageService } from "services/clientStorageService";
 
 class StorageServiceWrapper {

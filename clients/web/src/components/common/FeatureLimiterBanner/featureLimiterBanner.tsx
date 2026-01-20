@@ -8,7 +8,7 @@ import { globalActions } from "store/slices/global/slice";
 import { PRICING } from "features/pricing";
 import { trackFeatureLimitUpgradeBannerViewed } from "modules/analytics/events/common/feature-limiter";
 import { trackViewPricingPlansClicked } from "modules/analytics/events/common/pricing";
-import { getPrettyPlanName } from "utils/FormattingHelper";
+import { getPrettyPlanName } from "@requestly/utils";
 import "./styles.scss";
 
 const FeatureLimiterBanner = () => {

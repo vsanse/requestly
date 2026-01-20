@@ -10,7 +10,7 @@ import { useSearchParams } from "react-router-dom";
 import { PlanStatus, PlanType } from "features/settings/components/BillingTeam/types";
 import { ChangePlanRequestConfirmationModal } from "features/pricing/components/ChangePlanRequestConfirmationModal";
 import { useCallback, useState } from "react";
-import { getPrettyPlanName } from "utils/FormattingHelper";
+import { getPrettyPlanName } from "@requestly/utils";
 import { getFunctions, httpsCallable } from "firebase/functions";
 import { toast } from "utils/Toast";
 import { CancelPlanModal } from "../../../../../modals/common/CancelPlanModal";

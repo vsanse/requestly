@@ -1,6 +1,6 @@
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import DataStoreUtils from "./DataStoreUtils";
-import { getDateString } from "./DateTimeUtils";
+import { getDateString } from "@requestly/utils";
 import { getAppDetails, getAppFlavour } from "./AppUtils";
 import { trackAttr } from "modules/analytics";
 import { isDesktopMode } from "./Misc";

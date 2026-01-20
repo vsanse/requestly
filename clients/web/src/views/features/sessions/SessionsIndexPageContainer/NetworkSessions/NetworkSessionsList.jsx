@@ -3,7 +3,7 @@ import ProCard from "@ant-design/pro-card";
 import ProTable from "@ant-design/pro-table";
 import PATHS from "config/constants/sub/paths";
 import { Link, useNavigate } from "react-router-dom";
-import { epochToDateAndTimeString } from "utils/DateTimeUtils";
+import { epochToDateAndTimeString } from "@requestly/utils";
 import { Modal, Space, Tag, Tooltip, Typography } from "antd";
 import { DeleteOutlined, DownloadOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
 import { deleteNetworkSession, getNetworkSession } from "./actions";

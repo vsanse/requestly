@@ -14,7 +14,7 @@ import { isEmpty } from "lodash";
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import { HttpRequestScriptExecutionService } from "./httpRequestScriptExecutionService";
 import { Scope } from "../variableResolver/variable-resolver";
-import { Ok, Result, Try } from "utils/try";
+import { Ok, Result, Try } from "@requestly/utils";
 import { NativeError } from "errors/NativeError";
 import { WorkResult, WorkResultType } from "../modules/scriptsV2/workloadManager/workLoadTypes";
 import { BaseExecutionContext, ExecutionContext, ScriptExecutionContext } from "./scriptExecutionContext";

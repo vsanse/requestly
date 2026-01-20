@@ -10,7 +10,7 @@ import { MdArrowBack } from "@react-icons/all-files/md/MdArrowBack";
 import { InviteMembersForm } from "./components/InviteMembersForm/InviteMembersForm";
 import { getBillingTeamById, getBillingTeamMembers } from "store/features/billing/selectors";
 import { BillingTeamMemberStatus } from "features/settings/components/BillingTeam/types";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { AddMembersDrawerRecord } from "./types";
 import "./addMembersDrawer.scss";
 

@@ -12,7 +12,7 @@ import {
   getSessionRecordingId,
   getSessionRecordingMetaData,
 } from "store/features/session-recording/selectors";
-import { epochToDateAndTimeString, msToHoursMinutesAndSeconds } from "utils/DateTimeUtils";
+import { epochToDateAndTimeString, msToHoursMinutesAndSeconds } from "@requestly/utils";
 import { sessionRecordingActions } from "store/features/session-recording/slice";
 import { updateSessionDescription, updateSessionName } from "../../../../screens/SavedSessionScreen/components/utils";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";

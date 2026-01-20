@@ -8,7 +8,7 @@ import { InfoTag } from "components/misc/InfoTag";
 import { MoreInfo } from "components/misc/MoreInfo";
 import { HiOutlineExternalLink } from "@react-icons/all-files/hi/HiOutlineExternalLink";
 import isEmpty from "is-empty";
-import { isValidUrl } from "utils/FormattingHelper";
+import { isValidUrl } from "@requestly/utils";
 import {
   displayFileSelector,
   handleOpenLocalFileInBrowser,

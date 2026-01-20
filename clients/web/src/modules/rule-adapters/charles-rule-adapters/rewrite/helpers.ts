@@ -1,7 +1,7 @@
 import { RewriteRulePair, WhereToApplyRule } from "../types";
 import { rewriteRuleActionTypes } from "./constants";
 import { HeaderAction, QueryParamAction } from "./types";
-import { generateObjectId } from "utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { HeaderRule, QueryParamRule } from "@requestly/shared/types/entities/rules";
 
 export const getWhereToApplyRule = (pair: RewriteRulePair): WhereToApplyRule => {

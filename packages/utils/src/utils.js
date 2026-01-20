@@ -43,10 +43,6 @@ export const traverseJsonByPath = (jsonObject, path) => {
   }
 };
 
-export function isValidUrl(url) {
-  return url.search(/^http:|https:|ftp:|javascript:/) === 0;
-}
-
 export function getId() {
   return Date.now();
 }

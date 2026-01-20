@@ -4,7 +4,7 @@ import { globalActions } from "store/slices/global/slice";
 import QueryParamModificationRow from "../Rows/RowsMarkup/QueryParamModificationRow";
 import RequestSourceRow from "../Rows/RowsMarkup/RequestSourceRow";
 import AddQueryParamModificationRow from "../Rows/RowsMarkup/AddQueryParamModificationRow";
-import { generateObjectId } from "../../../../../../utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { Row, Col } from "antd";
 
 const QueryParamRulePair = ({ pair, pairIndex, ruleDetails, isInputDisabled }) => {

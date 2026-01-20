@@ -1,13 +1,11 @@
+import { createApiClient } from "@requestly/api-client";
+
 export const getConfigfromApi = async (apiKey: string): Promise<any> => {
   try {
-    const response = await fetch("https://api2.requestly.io/v1/rules", {
-      method: "GET",
-      headers: {
-        "x-api-key": apiKey,
-      },
-    });
+    const apiClient = createApiClient("https://api2.requestly.io");
+    apiClient.rules.setAuthToken(apiKey);
 
-    const result = await response.json();
+    const result = await apiClient.rules.getRules();
 
     if (!result?.success) {
       throw new Error("Failed to fetch rules");

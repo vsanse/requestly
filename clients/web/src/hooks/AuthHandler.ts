@@ -6,7 +6,7 @@ import firebaseApp from "firebase.js";
 import { User, getAuth, onAuthStateChanged, signInWithCustomToken } from "firebase/auth";
 import { globalActions } from "store/slices/global/slice";
 import { submitAttrUtil } from "utils/AnalyticsUtils";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { getAppMode, getUserAttributes, getAppOnboardingDetails } from "store/selectors";
 import { getPlanName, isPremiumUser } from "utils/PremiumUtils";
 import moment from "moment";

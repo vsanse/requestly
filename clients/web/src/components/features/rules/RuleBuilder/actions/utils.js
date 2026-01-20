@@ -4,10 +4,10 @@
  */
 
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
-import { generateObjectId } from "../../../../../utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import APP_CONSTANTS from "config/constants";
 import { saveRule } from "../../../../../views/features/rules/RuleEditor/components/Header/ActionButtons/actions";
-import { generateObjectCreationDate } from "utils/DateTimeUtils";
+import { generateObjectCreationDate } from "@requestly/utils";
 import Logger from "lib/logger";
 
 const { RULE_TYPES_CONFIG } = APP_CONSTANTS;

@@ -25,7 +25,7 @@ import { useMediaQuery } from "react-responsive";
 import { hideElement, showElement } from "utils/domUtils";
 import StaticSessionViewerBottomSheet from "features/sessionBook/components/SessionViewerBottomSheet/StaticSessionViewerBottomSheet";
 import "./savedSessionViewer.scss";
-import { secToMinutesAndSeconds } from "utils/DateTimeUtils";
+import { secToMinutesAndSeconds } from "@requestly/utils";
 import { useRBAC } from "features/rbac";
 import { Conditional } from "components/common/Conditional";
 import { copyToClipBoard } from "utils/Misc";

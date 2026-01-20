@@ -3,7 +3,7 @@ import { getCurrentlySelectedRuleData } from "store/selectors";
 import { useSelector } from "react-redux";
 import { Col, Popconfirm, Row, Spin, Table } from "antd";
 import { TestReport } from "../../types";
-import { getFormattedTimestamp } from "utils/DateTimeUtils";
+import { getFormattedTimestamp } from "@requestly/utils";
 import { MdOutlineCheckCircle } from "@react-icons/all-files/md/MdOutlineCheckCircle";
 import { IoMdCloseCircleOutline } from "@react-icons/all-files/io/IoMdCloseCircleOutline";
 import { RiDeleteBin6Line } from "@react-icons/all-files/ri/RiDeleteBin6Line";

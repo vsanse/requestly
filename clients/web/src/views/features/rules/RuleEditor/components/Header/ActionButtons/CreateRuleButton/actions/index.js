@@ -1,7 +1,7 @@
 import isEmpty from "is-empty";
 import { globalActions } from "store/slices/global/slice";
 //UTILS
-import { isValidUrl } from "../../../../../../../../../utils/FormattingHelper";
+import { isValidUrl } from "@requestly/utils";
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import { cloneDeep, inRange } from "lodash";
 import { getFunctions, httpsCallable } from "firebase/functions";

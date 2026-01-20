@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { getIsOrgBannerDismissed } from "store/selectors";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
 import { RQButton, RQModal } from "lib/design-system/components";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { Avatar, Divider, Row, Space, Typography } from "antd";
 import { parseGravatarImage } from "utils/Misc";
 import { toast } from "utils/Toast";

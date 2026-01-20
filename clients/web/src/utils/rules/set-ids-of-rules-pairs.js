@@ -1,4 +1,4 @@
-import { generateObjectId } from "../FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 //CONSTANTS
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 

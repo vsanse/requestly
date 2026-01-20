@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { Alert, Badge, Button, Card, Col, Row, Space, Tabs } from "antd";
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import HeadersPairModificationRowV2 from "./HeadersPairModificationRowV2";
-import { generateObjectId } from "../../../../../../../utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { EditOutlined, MinusOutlined, PlusOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import { redirectToTraffic } from "../../../../../../../utils/RedirectionUtils";

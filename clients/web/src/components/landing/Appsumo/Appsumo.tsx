@@ -13,7 +13,7 @@ import AppSumoWorkspaceDropdown from "components/landing/Appsumo/AppSumoWorkspac
 import { doc, getDoc, getFirestore, writeBatch } from "firebase/firestore";
 import firebaseApp from "../../../firebase";
 import { toast } from "utils/Toast";
-import { isEmailValid } from "utils/FormattingHelper";
+import { isEmailValid } from "@requestly/utils";
 import { useDebounce } from "hooks/useDebounce";
 import { httpsCallable, getFunctions } from "firebase/functions";
 import { trackNewTeamCreateSuccess } from "modules/analytics/events/features/teams";

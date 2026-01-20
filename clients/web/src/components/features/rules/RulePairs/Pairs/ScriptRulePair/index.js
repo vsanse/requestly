@@ -3,7 +3,7 @@ import AvailableScriptsRow from "../Rows/RowsMarkup/AvailableScriptsRow";
 import RequestSourceRow from "../Rows/RowsMarkup/RequestSourceRow";
 import AddCustomScriptRow from "../Rows/RowsMarkup/AddCustomScriptRow";
 import CustomScriptRow from "../Rows/RowsMarkup/CustomScriptRow";
-import { generateObjectId } from "../../../../../../utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { useLocation } from "react-router-dom";
 import { Checkbox, Typography } from "antd";
 import { useDispatch, useSelector } from "react-redux";

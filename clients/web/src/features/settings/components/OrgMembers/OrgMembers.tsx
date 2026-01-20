@@ -3,7 +3,7 @@ import { Col } from "antd";
 import { useSelector } from "react-redux";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
 import { OrgMembersTable } from "./components/OrgMembersTable/OrgMembersTable";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { capitalize } from "lodash";
 import { useFetchOrgMembers } from "./hooks/useFetchOrganizationMembers";
 import "./orgMembers.scss";

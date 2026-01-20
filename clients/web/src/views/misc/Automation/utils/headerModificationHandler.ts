@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getConfigfromApi } from "./getConfigfromApi";
 import { saveRulesToExtension, clearExtensionStorage } from "./extensionRuleSync";
 import { getHeaderModificationConfig } from "./getHeaderModificationConfig";
-import { isEnvAutomation } from "utils/EnvUtils";
+import { isEnvAutomation } from "@requestly/utils";
 
 interface ReturnProps {
   success: boolean;

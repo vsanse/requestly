@@ -17,7 +17,7 @@ import {
   startAfter,
   onSnapshot,
 } from "firebase/firestore";
-import { filterUniqueObjects } from "utils/FormattingHelper";
+import { filterUniqueObjects } from "@requestly/utils";
 import ShareRecordingModal from "../../ShareRecordingModal";
 import ProtectedRoute from "components/authentication/ProtectedRoute";
 import RecordingsList from "./RecordingsList";

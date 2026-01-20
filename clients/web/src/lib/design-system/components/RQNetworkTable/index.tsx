@@ -1,7 +1,7 @@
 import React, { useMemo, useEffect, useState, useRef } from "react";
 import { GenericNetworkTable, GenericNetworkTableProps } from "./GenericNetworkTable";
 import { RQSessionAttributes } from "@requestly/web-sdk";
-import { secToMinutesAndSeconds } from "utils/DateTimeUtils";
+import { secToMinutesAndSeconds } from "@requestly/utils";
 import { getOffset } from "views/features/sessions/SessionViewer/NetworkLogs/helpers";
 import { RQNetworkLog } from "./types";
 import { AiFillCaretRight } from "@react-icons/all-files/ai/AiFillCaretRight";

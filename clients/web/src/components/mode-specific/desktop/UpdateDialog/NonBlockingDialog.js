@@ -1,6 +1,6 @@
 import { notification } from "antd";
 import { useCallback, useEffect } from "react";
-import { getTimeDifferenceFromTimestamps } from "utils/DateTimeUtils";
+import { getTimeDifferenceFromTimestamps } from "@requestly/utils";
 
 /* THE UPDATE NOTIFICATION SHOWN TO ALL USERS ON COMPATIBLE VERSIONS */
 const NonBlockingDialog = ({ updateDetails, quitAndInstall }) => {

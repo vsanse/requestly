@@ -1,5 +1,5 @@
 import { useFeatureValue } from "@growthbook/growthbook-react";
-import { isNodeEnvDev } from "utils/EnvUtils";
+import { isNodeEnvDev } from "@requestly/utils";
 
 export const useIsBrowserStackIntegrationOn = () => {
   const featureValue = useFeatureValue("browserstack_integration", true);

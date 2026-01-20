@@ -1,4 +1,4 @@
-import { generateObjectId } from "../../../../../utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 //UTILS
 import { redirectToRoot } from "../../../../../utils/RedirectionUtils";
 //REDUCER ACTIONS
@@ -6,7 +6,7 @@ import { globalActions } from "store/slices/global/slice";
 //CONSTANTS
 import APP_CONSTANTS from "../../../../../config/constants";
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
-import { generateObjectCreationDate } from "utils/DateTimeUtils";
+import { generateObjectCreationDate } from "@requestly/utils";
 import { getRuleLevelInitialConfigs } from "./utils";
 import { isExtensionManifestVersion3 } from "actions/ExtensionActions";
 

@@ -5,7 +5,7 @@ import "./sessionStorageLogs.scss";
 import { useCallback, useMemo } from "react";
 import { StorageEventData } from "@requestly/web-sdk";
 import { Table } from "antd";
-import { secToMinutesAndSeconds } from "utils/DateTimeUtils";
+import { secToMinutesAndSeconds } from "@requestly/utils";
 import CopyButton from "components/misc/CopyButton";
 import PATHS from "config/constants/sub/paths";
 

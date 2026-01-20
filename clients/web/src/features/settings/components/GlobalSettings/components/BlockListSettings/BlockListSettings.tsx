@@ -7,7 +7,7 @@ import { toast } from "utils/Toast";
 import { useSelector } from "react-redux";
 import { getAppMode } from "store/selectors";
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
-import { prefixUrlWithHttps } from "utils/URLUtils";
+import { prefixUrlWithHttps } from "@requestly/utils";
 import "./blocklist.scss";
 import { AiOutlineClose } from "@react-icons/all-files/ai/AiOutlineClose";
 import { debounce } from "lodash";

@@ -1,0 +1,23 @@
+{
+  "name": "@requestly/storage",
+  "version": "1.0.0",
+  "description": "Storage abstraction layer for browser, Node.js, and VS Code environments",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "storage",
+    "localStorage",
+    "file-storage",
+    "vscode-storage"
+  ],
+  "author": "Requestly",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.79.1"
+  }
+}

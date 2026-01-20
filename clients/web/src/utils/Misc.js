@@ -3,7 +3,7 @@ import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import APP_CONSTANTS from "config/constants";
 import { toast } from "utils/Toast.js";
 import { getAttrFromFirebase, submitAttrUtil } from "./AnalyticsUtils";
-import { dateObjToDateString, getOldestDate } from "./DateTimeUtils";
+import { dateObjToDateString, getOldestDate } from "@requestly/utils";
 import { trackDesktopAppInstalled } from "modules/analytics/events/misc/installation";
 import { getValueAsPromise } from "actions/FirebaseActions";
 import { isEmailVerified } from "./AuthUtils";

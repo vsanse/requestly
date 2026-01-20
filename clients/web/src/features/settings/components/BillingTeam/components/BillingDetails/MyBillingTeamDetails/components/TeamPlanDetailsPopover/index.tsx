@@ -4,7 +4,7 @@ import { getPlanNameFromId } from "utils/PremiumUtils";
 import { MdCheck } from "@react-icons/all-files/md/MdCheck";
 import { PricingFeatures } from "features/pricing";
 import { PRICING } from "features/pricing";
-import { getLongFormatDateString } from "utils/DateTimeUtils";
+import { getLongFormatDateString } from "@requestly/utils";
 import { BillingTeamDetails } from "features/settings/components/BillingTeam/types";
 // import { PricingPlans } from "features/pricing";
 

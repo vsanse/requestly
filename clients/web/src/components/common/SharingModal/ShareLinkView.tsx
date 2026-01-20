@@ -6,7 +6,7 @@ import { RQButton, RQInput } from "lib/design-system/components";
 import { CopyValue } from "components/misc/CopyValue";
 import { getSharedListIdFromImportURL } from "features/rules/screens/sharedLists";
 import { createSharedList } from "./actions";
-import { getFormattedDate } from "utils/DateTimeUtils";
+import { getFormattedDate } from "@requestly/utils";
 import { getSharedListURL } from "utils/PathUtils";
 import { toast } from "utils/Toast";
 import { trackRQLastActivity } from "utils/AnalyticsUtils";

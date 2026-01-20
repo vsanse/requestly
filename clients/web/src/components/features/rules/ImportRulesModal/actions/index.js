@@ -4,7 +4,7 @@ import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import APP_CONSTANTS from "../../../../../config/constants";
 //FUNCTIONS
 import { setIdsOfSingleRulePairs } from "../../../../../utils/rules/set-ids-of-rules-pairs";
-import { generateObjectId } from "../../../../../utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import Logger from "lib/logger";
 import { runRuleMigrations } from "utils/rules/ruleMigrations";
 import { RecordStatus } from "@requestly/shared/types/entities/rules";

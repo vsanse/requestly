@@ -1,4 +1,4 @@
-import { generateObjectId } from "utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { Rule } from "@requestly/shared/types/entities/rules";
 
 // Helper function to create a base rule with default values

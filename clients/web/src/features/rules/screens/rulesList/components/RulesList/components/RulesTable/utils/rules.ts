@@ -5,7 +5,7 @@ import { getTemplates } from "backend/rules";
 import { addRulesAndGroupsToStorage, processDataToImport } from "features/rules/modals/ImportRulesModal/actions";
 import { AppMode } from "utils/syncing/SyncUtils";
 import { localSampleRules, sampleRuleDetails } from "../../../constants";
-import { generateObjectCreationDate } from "utils/DateTimeUtils";
+import { generateObjectCreationDate } from "@requestly/utils";
 import { Group, RecordStatus, RecordType, Rule, StorageRecord } from "@requestly/shared/types/entities/rules";
 import { RuleTemplate } from "features/rules/types/rules";
 import { UserAuth } from "store/slices/global/user/types";

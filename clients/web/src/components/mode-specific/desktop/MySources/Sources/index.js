@@ -36,7 +36,7 @@ import { getAndroidDevices, getIosSimulators } from "./deviceFetchers";
 import { IoMdRefresh } from "@react-icons/all-files/io/IoMdRefresh";
 import IosBtn from "./iosBtn";
 import { useFeatureValue } from "@growthbook/growthbook-react";
-import { getUserOS } from "utils/osUtils";
+import { getUserOS } from "@requestly/utils";
 
 const Sources = ({ isOpen, toggle, ...props }) => {
   const navigate = useNavigate();

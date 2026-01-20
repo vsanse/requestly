@@ -7,7 +7,7 @@ import { UserAvatar } from "componentsV2/UserAvatar";
 import { ContentListTableProps } from "componentsV2/ContentList";
 import { isFeatureCompatible } from "utils/CompatibilityUtils";
 import Favicon from "components/misc/Favicon";
-import { epochToDateAndTimeString, msToHoursMinutesAndSeconds } from "utils/DateTimeUtils";
+import { epochToDateAndTimeString, msToHoursMinutesAndSeconds } from "@requestly/utils";
 import { getPrettyVisibilityName, renderHeroIcon } from "views/features/sessions/ShareRecordingModal";
 import FEATURES from "config/constants/sub/features";
 import PATHS from "config/constants/sub/paths";

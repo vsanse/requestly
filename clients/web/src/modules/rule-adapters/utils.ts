@@ -1,5 +1,5 @@
 import { HeadersConfig, SourceUrl, Location, CharlesRuleType, SourceData } from "./charles-rule-adapters/types";
-import { generateObjectId } from "utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { StorageService } from "init";
 import { createNewGroup } from "components/features/rules/ChangeRuleGroupModal/actions";
 import { trim } from "lodash";

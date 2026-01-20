@@ -25,7 +25,6 @@
   "scripts": {
     "preinstall": "sh ./scripts/build-analytics-vendor.sh",
     "build": "rm -rf dist && rollup -c",
-    "prebuild": "npm ls",
     "watch": "rm -rf dist && rollup -cw"
   },
   "devDependencies": {
@@ -64,6 +63,11 @@
     "@devtools-ds/table": "^1.2.1",
     "@devtools-ds/themes": "^1.2.1",
     "@requestly/analytics-vendors": "workspace:*",
+    "@requestly/api-client": "workspace:*",
+    "@requestly/bridge": "workspace:*",
+    "@requestly/storage": "workspace:*",
+    "@requestly/utils": "workspace:*",
+    "@requestly/validators": "workspace:*",
     "@uiw/codemirror-theme-vscode": "^4.23.0",
     "@uiw/react-codemirror": "^4.23.0",
     "antd": "^5.0.4",

@@ -7,7 +7,7 @@ import { getUserAuthDetails } from "store/slices/global/user/selectors";
 import { getBillingTeamRedirectURL } from "backend/billing";
 import PATHS from "config/constants/sub/paths";
 import { getFunctions, httpsCallable } from "firebase/functions";
-import { getPrettyPlanName } from "utils/FormattingHelper";
+import { getPrettyPlanName } from "@requestly/utils";
 import Logger from "lib/logger";
 
 export const UpgradeSuccess: React.FC = () => {

@@ -5,7 +5,7 @@ import { SourceConditionInput } from "../SourceUrl";
 import { Typography, Divider, Row, Input } from "antd";
 import { CheckCircleOutlined, InfoCircleOutlined, CloseCircleOutlined } from "@ant-design/icons";
 import { isValidRegex } from "utils/rules/misc";
-import { isValidUrl } from "utils/FormattingHelper";
+import { isValidUrl } from "@requestly/utils";
 import { isEqual } from "lodash";
 import { SessionRecordingPageSource } from "types/sessionRecording";
 //@ts-ignore

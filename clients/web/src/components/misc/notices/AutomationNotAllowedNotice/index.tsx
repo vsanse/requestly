@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Typography } from "antd";
 import "../common.scss";
-import { isEnvAutomation } from "utils/EnvUtils";
+import { isEnvAutomation } from "@requestly/utils";
 
 const AutomationNotAllowedNotice: React.FC = () => {
   const [visible, setVisible] = useState(false);

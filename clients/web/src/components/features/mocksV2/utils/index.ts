@@ -1,6 +1,6 @@
 import { createMock } from "backend/mocks/createMock";
 import APP_CONSTANTS from "config/constants";
-import { isBackendEnvBeta, isBackendEnvEmulator } from "utils/EnvUtils";
+import { isBackendEnvBeta, isBackendEnvEmulator } from "@requestly/utils";
 import { v4 as uuidv4 } from "uuid";
 import {
   defaultCssEditorMock,

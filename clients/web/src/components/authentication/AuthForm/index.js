@@ -11,7 +11,7 @@ import { FaSpinner } from "@react-icons/all-files/fa/FaSpinner";
 // import MicrosoftIcon from "../../../assets/img/icons/common/microsoft.svg";
 // import GithubIcon from "../../../assets/img/icons/common/github.svg";
 
-import { getGreeting } from "utils/FormattingHelper";
+import { getGreeting } from "@requestly/utils";
 import { getAuthErrorMessage, AuthTypes } from "../utils";
 
 //CONSTANTS
@@ -29,7 +29,7 @@ import {
 } from "features/onboarding/components/auth/components/Form/actions";
 
 //UTILS
-import { getQueryParamsAsMap } from "../../../utils/URLUtils";
+import { getQueryParamsAsMap } from "@requestly/utils";
 import { getAppMode, getTimeToResendEmailLogin } from "../../../store/selectors";
 import { trackAuthModalShownEvent } from "modules/analytics/events/common/auth/authModal";
 

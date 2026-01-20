@@ -5,7 +5,7 @@ import { getDatabase, connectDatabaseEmulator } from "firebase/database";
 import { getFirestore, connectFirestoreEmulator } from "firebase/firestore";
 import { getStorage, connectStorageEmulator } from "firebase/storage";
 import { getFunctions, connectFunctionsEmulator } from "firebase/functions";
-import { isBackendEnvEmulator } from "utils/EnvUtils";
+import { isBackendEnvEmulator } from "@requestly/utils";
 
 const firebaseApp = initializeApp({
   apiKey: process.env.VITE_REACT_APP_FIREBASE_API_KEY,

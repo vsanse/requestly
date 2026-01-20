@@ -1,6 +1,6 @@
 import { get } from "lodash";
 import { getNewRule } from "components/features/rules/RuleBuilder/actions";
-import { generateObjectId } from "utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { CharlesRuleType, MapRemoteRule, MapRemoteRuleMappings, ParsedRule } from "../types";
 import { getGroupName, getLocation } from "../../utils";
 import { RecordStatus, RedirectRule, RuleType } from "@requestly/shared/types/entities/rules";

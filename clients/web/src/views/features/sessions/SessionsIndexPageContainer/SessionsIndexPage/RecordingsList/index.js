@@ -5,7 +5,7 @@ import ProTable from "@ant-design/pro-table";
 import { Modal, Space, Tag, Tooltip, Typography } from "antd";
 import ReactHoverObserver from "react-hover-observer";
 import Text from "antd/lib/typography/Text";
-import { epochToDateAndTimeString, msToHoursMinutesAndSeconds } from "utils/DateTimeUtils";
+import { epochToDateAndTimeString, msToHoursMinutesAndSeconds } from "@requestly/utils";
 import { Link } from "react-router-dom";
 import PATHS from "config/constants/sub/paths";
 import { getPrettyVisibilityName, renderHeroIcon } from "../../../ShareRecordingModal";

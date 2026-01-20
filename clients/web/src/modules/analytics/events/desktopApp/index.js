@@ -12,7 +12,7 @@ import {
   AUTH,
   UPDATE_DIALOG,
 } from "./constants";
-import { getUserOS } from "utils/osUtils";
+import { getUserOS } from "@requestly/utils";
 
 export const trackProxyServerStartedEvent = () => {
   const params = {};

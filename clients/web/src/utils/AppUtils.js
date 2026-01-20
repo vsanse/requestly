@@ -1,6 +1,6 @@
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import { isExtensionInstalled } from "actions/ExtensionActions";
-import { getUserOS } from "./osUtils";
+import { getUserOS } from "@requestly/utils";
 export const getAppDetails = () => {
   let app_mode = null;
   let app_version = null;

@@ -1,4 +1,4 @@
-import { isValidUrl } from "utils/FormattingHelper";
+import { isValidUrl } from "@requestly/utils";
 import { FormDropDownOptions, RequestContentType, RequestMethod, RQAPI } from "../../types";
 import { apiClientFileStore } from "../../store/apiClientFilesStore";
 

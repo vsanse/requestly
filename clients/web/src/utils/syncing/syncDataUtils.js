@@ -7,7 +7,7 @@ import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import { isEqual, uniqWith } from "lodash";
 import { isEmpty } from "lodash";
 import Logger from "lib/logger";
-import { rulesFlatObjectToObjectIdArray } from "utils/FormattingHelper";
+import { rulesFlatObjectToObjectIdArray } from "@requestly/utils";
 import APP_CONSTANTS from "config/constants";
 import { compressRecords } from "utils/Compression";
 import { growthbook } from "utils/feature-flag/growthbook";

@@ -12,8 +12,8 @@ import { globalActions } from "store/slices/global/slice";
 import { getAppMode, getIsRefreshRulesPending } from "store/selectors";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
 //FUNCTIONS
-import { generateObjectId } from "../../../../utils/FormattingHelper";
-import { generateObjectCreationDate } from "utils/DateTimeUtils";
+import { generateObjectId } from "@requestly/utils";
+import { generateObjectCreationDate } from "@requestly/utils";
 import { trackGroupCreatedEvent } from "features/rules/analytics";
 import Logger from "lib/logger";
 

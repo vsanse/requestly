@@ -11,7 +11,7 @@ import { RQButton } from "lib/design-system/components";
 import { BillingTeamMember, BillingTeamRoles } from "../../../types";
 import { MdOutlinePaid } from "@react-icons/all-files/md/MdOutlinePaid";
 import { MdOutlineAdminPanelSettings } from "@react-icons/all-files/md/MdOutlineAdminPanelSettings";
-import { getLongFormatDateString } from "utils/DateTimeUtils";
+import { getLongFormatDateString } from "@requestly/utils";
 import { IoMdAdd } from "@react-icons/all-files/io/IoMdAdd";
 import { RequestBillingTeamAccessModal } from "../modals/RequestBillingTeamAccessModal/RequestBillingTeamAccessModal";
 import "./index.scss";

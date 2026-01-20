@@ -2,7 +2,7 @@ import { RQButton } from "lib/design-system-v2/components";
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { getAppMode } from "store/selectors";
-import { getUserOS } from "utils/osUtils";
+import { getUserOS } from "@requestly/utils";
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 import { useFeatureValue } from "@growthbook/growthbook-react";
 import { trackBlockerScreenViewed, trackGithubIssueClicked, trackUseChromeExtensionClicked } from "./analytics";

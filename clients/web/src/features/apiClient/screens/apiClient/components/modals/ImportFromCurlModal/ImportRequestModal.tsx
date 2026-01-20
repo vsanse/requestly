@@ -10,7 +10,7 @@ import {
 } from "modules/analytics/events/features/apiClient";
 import { trackRQDesktopLastActivity, trackRQLastActivity } from "utils/AnalyticsUtils";
 import { API_CLIENT } from "modules/analytics/events/features/constants";
-import { getDomainFromURL } from "utils/URLUtils";
+import { getDomainFromURL } from "@requestly/utils";
 import "./importFromCurlModal.scss";
 
 interface Props {

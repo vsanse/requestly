@@ -9,7 +9,7 @@ import { toast } from "utils/Toast";
 import { PageSourceRow } from "./components/PageSourceRow";
 import { SessionRecordingPageSource } from "types";
 import { AutoRecordingMode, SessionRecordingConfig } from "features/sessionBook";
-import { generateObjectId } from "utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 import { isExtensionInstalled, isSafariBrowser } from "actions/ExtensionActions";
 import InstallExtensionCTA from "components/misc/InstallExtensionCTA";
 // @ts-ignore

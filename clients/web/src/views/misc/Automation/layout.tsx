@@ -3,7 +3,7 @@ import { useNavigate, Outlet } from "react-router-dom";
 import { Layout } from "antd";
 import Footer from "components/sections/Footer";
 import { redirectToRoot } from "utils/RedirectionUtils";
-import { isEnvAutomation } from "utils/EnvUtils";
+import { isEnvAutomation } from "@requestly/utils";
 import removePreloader from "actions/UI/removePreloader";
 import "./automation.css";
 

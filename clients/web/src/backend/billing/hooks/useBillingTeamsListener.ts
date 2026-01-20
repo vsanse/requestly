@@ -8,7 +8,7 @@ import { getAuth } from "firebase/auth";
 import { billingActions } from "store/features/billing/slice";
 import { getBillingTeamMembersProfile } from "..";
 import Logger from "lib/logger";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { isCompanyEmail } from "utils/mailCheckerUtils";
 import { submitAttrUtil } from "utils/AnalyticsUtils";
 import APP_CONSTANTS from "config/constants";

@@ -13,7 +13,7 @@ import {
   trackWorkspaceInviteLinkRevoked,
 } from "modules/analytics/events/features/teams";
 import { trackWorkspaceInviteLinkCopied } from "modules/analytics/events/common/teams";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { isCompanyEmail } from "utils/mailCheckerUtils";
 
 interface Props {

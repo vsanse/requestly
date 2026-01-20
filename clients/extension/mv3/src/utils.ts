@@ -5,20 +5,11 @@ import { getVariable, Variable } from "./service-worker/variable";
 import { getRecord, onRecordChange, saveRecord } from "common/storage";
 import { STORAGE_KEYS } from "common/constants";
 
-export const formatDate = (dateInMillis: number, format: string): string => {
-  if (dateInMillis && format === "yyyy-mm-dd") {
-    const date = new Date(dateInMillis);
-    let monthString = String(date.getMonth() + 1),
-      dateString = String(date.getDate());
+// Using @requestly/utils for shared utilities
+import { debounce as utilsDebounce, formatDate as utilsFormatDate } from "@requestly/utils";
 
-    dateString = dateString.length < 2 ? "0" + dateString : String(dateString);
-    monthString = monthString.length < 2 ? "0" + monthString : String(monthString);
-
-    return date.getFullYear() + "-" + monthString + "-" + dateString;
-  }
-
-  return "";
-};
+// Re-export formatDate from @requestly/utils
+export const formatDate = utilsFormatDate;
 
 export const getAllSupportedWebURLs = () => {
   const webURLsSet = new Set([config.WEB_URL, ...config.OTHER_WEB_URLS]);
@@ -88,14 +79,8 @@ export const isExtensionEnabled = async (): Promise<boolean> => {
   return await getVariable<boolean>(Variable.IS_EXTENSION_ENABLED, true);
 };
 
-export const debounce = (func: Function, wait: number) => {
-  let timeout: NodeJS.Timeout;
-
-  return function (...args: any[]) {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => func(...args), wait);
-  };
-};
+// Re-export debounce from @requestly/utils
+export const debounce = utilsDebounce;
 
 let cachedBlockedDomains: string[] | null = null;
 

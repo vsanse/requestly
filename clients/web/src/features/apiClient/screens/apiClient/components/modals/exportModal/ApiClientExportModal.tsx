@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import { Modal } from "antd";
 import { RQAPI } from "features/apiClient/types";
 // import { MdOutlineFileDownload } from "@react-icons/all-files/md/MdOutlineFileDownload";
-import { getFormattedDate } from "utils/DateTimeUtils";
+import { getFormattedDate } from "@requestly/utils";
 import "./apiClientExportModal.scss";
 import fileDownload from "js-file-download";
 import { omit } from "lodash";

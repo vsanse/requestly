@@ -18,7 +18,7 @@ import {
 import SpinnerColumn from "../../../../../../../../components/misc/SpinnerColumn";
 // UTILS
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
-import { filterUniqueObjects } from "../../../../../../../../utils/FormattingHelper";
+import { filterUniqueObjects } from "@requestly/utils";
 import InvoiceStatus from "./InvoiceStatus";
 import ProTable from "@ant-design/pro-table";
 import { trackPersonalSubscriptionInvoiceClicked } from "modules/analytics/events/misc/subscriptions";

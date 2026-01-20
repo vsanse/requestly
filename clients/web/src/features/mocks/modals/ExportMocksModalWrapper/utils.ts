@@ -1,6 +1,6 @@
 import { RQMockSchema } from "components/features/mocksV2/types";
 import { isMock } from "features/mocks/screens/mocksList/components/MocksList/components/MocksTable/utils";
-import { getFormattedDate } from "utils/DateTimeUtils";
+import { getFormattedDate } from "@requestly/utils";
 
 export const prepareMocksToExport = (mocks: RQMockSchema[]) => {
   let mocksCount = 0;

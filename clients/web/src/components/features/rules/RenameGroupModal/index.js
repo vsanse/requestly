@@ -9,7 +9,7 @@ import { StorageService } from "../../../../init";
 import { getAppMode, getIsRefreshRulesPending } from "../../../../store/selectors";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
 import { globalActions } from "store/slices/global/slice";
-import { generateObjectCreationDate } from "utils/DateTimeUtils";
+import { generateObjectCreationDate } from "@requestly/utils";
 import Logger from "lib/logger";
 import { trackGroupRenamed } from "features/rules/analytics";
 

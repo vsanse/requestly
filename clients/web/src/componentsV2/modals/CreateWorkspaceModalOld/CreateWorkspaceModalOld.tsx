@@ -16,7 +16,7 @@ import {
   trackNewTeamCreateSuccess,
 } from "modules/analytics/events/features/teams";
 import { toast } from "utils/Toast";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { isWorkspaceMappedToBillingTeam } from "features/settings";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
 import TEAM_WORKSPACES from "config/constants/sub/team-workspaces";

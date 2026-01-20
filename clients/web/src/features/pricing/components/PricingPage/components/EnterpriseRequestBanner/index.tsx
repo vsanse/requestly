@@ -10,7 +10,7 @@ import { trackEnterpriseRequestEvent } from "modules/analytics/events/misc/busin
 import { LoadingOutlined } from "@ant-design/icons";
 import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQuestionCircle";
 import { trackTeamPlanCardClicked, trackTeamPlanCardShown } from "modules/analytics/events/common/teams";
-import { getDomainFromEmail } from "utils/FormattingHelper";
+import { getDomainFromEmail } from "@requestly/utils";
 import { redirectToBillingTeam } from "utils/RedirectionUtils";
 import "./index.css";
 import { isCompanyEmail } from "utils/mailCheckerUtils";

@@ -8,7 +8,7 @@ import { NetworkEventData, RQSessionEventType } from "@requestly/web-sdk";
 import { sessionRecordingActions } from "store/features/session-recording/slice";
 import { partition } from "lodash";
 import { TrimHandle } from "./components/TrimHandle/TrimHandle";
-import { msToMinutesAndSeconds } from "utils/DateTimeUtils";
+import { msToMinutesAndSeconds } from "@requestly/utils";
 import { useDebounce } from "hooks/useDebounce";
 
 interface SessionTrimmerProps {

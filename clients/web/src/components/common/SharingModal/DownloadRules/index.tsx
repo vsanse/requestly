@@ -6,7 +6,7 @@ import { getAppMode } from "store/selectors";
 import { prepareContentToExport } from "../actions";
 import { trackRQLastActivity } from "utils/AnalyticsUtils";
 import { trackRulesExportedEvent } from "modules/analytics/events/common/rules";
-import { getFormattedDate } from "utils/DateTimeUtils";
+import { getFormattedDate } from "@requestly/utils";
 import { toast } from "utils/Toast";
 import { getAllRecords } from "store/features/rules/selectors";
 import "./DownloadRules.css";

@@ -1,12 +1,12 @@
 import isEmpty from "is-empty";
 //FUNCTIONS
-import { generateObjectId } from "../../../../../utils/FormattingHelper";
+import { generateObjectId } from "@requestly/utils";
 //EXTERNALS
 import { StorageService } from "../../../../../init";
 //CONSTANT
 import { CONSTANTS as GLOBAL_CONSTANTS } from "@requestly/constants";
 //ACTIONS
-import { generateObjectCreationDate } from "utils/DateTimeUtils";
+import { generateObjectCreationDate } from "@requestly/utils";
 import Logger from "lib/logger";
 import clientRuleStorageService from "services/clientStorageService/features/rule";
 

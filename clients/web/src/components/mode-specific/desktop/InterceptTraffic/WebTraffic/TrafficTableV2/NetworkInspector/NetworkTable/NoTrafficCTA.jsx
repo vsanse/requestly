@@ -19,7 +19,7 @@ import { toast } from "utils/Toast";
 import { redirectToTraffic } from "utils/RedirectionUtils";
 import { useNavigate } from "react-router-dom";
 import { useFeatureValue } from "@growthbook/growthbook-react";
-import { getUserOS } from "utils/osUtils";
+import { getUserOS } from "@requestly/utils";
 
 const NoTrafficCTA = ({ isStaticPreview, showMockFilters }) => {
   const dispatch = useDispatch();

@@ -13,7 +13,7 @@ import { deleteGroupsFromStorage, deleteRulesFromStorage } from "../DeleteRulesM
 import { addRecordsToTrash } from "utils/trash/TrashUtils";
 import { SOURCE } from "modules/analytics/events/common/constants";
 import Logger from "lib/logger";
-import { generateObjectCreationDate } from "utils/DateTimeUtils";
+import { generateObjectCreationDate } from "@requestly/utils";
 import { deleteTestReportByRuleId } from "../TestThisRule/utils/testReports";
 import { useFeatureIsOn } from "@growthbook/growthbook-react";
 import clientRuleStorageService from "services/clientStorageService/features/rule";

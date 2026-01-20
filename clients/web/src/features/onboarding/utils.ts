@@ -1,7 +1,7 @@
 import * as Sentry from "@sentry/react";
 import PATHS from "config/constants/sub/paths";
 import STORAGE from "config/constants/sub/storage";
-import { isEnvAutomation } from "utils/EnvUtils";
+import { isEnvAutomation } from "@requestly/utils";
 
 const EXCLUDED_PATHS = [
   PATHS.AUTH.SIGN_IN.RELATIVE,

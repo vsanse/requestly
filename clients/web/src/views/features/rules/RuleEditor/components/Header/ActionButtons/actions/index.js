@@ -1,11 +1,11 @@
 //EXTERNALS
 import { StorageService } from "../../../../../../../../init";
-import { generateObjectCreationDate } from "utils/DateTimeUtils";
+import { generateObjectCreationDate } from "@requestly/utils";
 import { trackErrorInRuleCreation } from "modules/analytics/events/common/rules";
 import { cloneDeep } from "lodash";
 import Logger from "lib/logger";
 import * as Sentry from "@sentry/react";
-import { detectUnsettledPromise } from "utils/FunctionUtils";
+import { detectUnsettledPromise } from "@requestly/utils";
 import { migrateRuleToMV3 } from "modules/extension/utils";
 import { runMinorFixesOnRule } from "utils/rules/misc";
 import { transformAndValidateRuleFields } from "../CreateRuleButton/actions";

@@ -5,9 +5,9 @@ import { BsShieldCheck } from "@react-icons/all-files/bs/BsShieldCheck";
 import { Button, Divider, Input, Row, Col, Typography, InputRef, Space } from "antd";
 import { globalActions } from "store/slices/global/slice";
 import { isExtensionInstalled, startRecordingOnUrl } from "actions/ExtensionActions";
-import { isValidUrl } from "utils/FormattingHelper";
+import { isValidUrl } from "@requestly/utils";
 import { toast } from "utils/Toast";
-import { prefixUrlWithHttps } from "utils/URLUtils";
+import { prefixUrlWithHttps } from "@requestly/utils";
 import {
   trackInstallExtensionDialogShown,
   trackOnboardingToSettingsNavigate,

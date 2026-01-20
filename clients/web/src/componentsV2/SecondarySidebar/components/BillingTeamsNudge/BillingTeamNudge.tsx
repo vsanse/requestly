@@ -5,7 +5,7 @@ import { MdClose } from "@react-icons/all-files/md/MdClose";
 import { useDispatch, useSelector } from "react-redux";
 import { getBillingTeamNudgeLastSeenTs } from "store/selectors";
 import { getUserAuthDetails } from "store/slices/global/user/selectors";
-import { getCompanyNameFromEmail, getPrettyPlanName } from "utils/FormattingHelper";
+import { getCompanyNameFromEmail, getPrettyPlanName } from "@requestly/utils";
 import { getAvailableBillingTeams, getBillingTeamMemberById } from "store/features/billing/selectors";
 import PATHS from "config/constants/sub/paths";
 import { getFunctions, httpsCallable } from "firebase/functions";
@@ -21,7 +21,7 @@ import {
   trackCheckoutBillingTeamNudgeClicked,
 } from "./analytics";
 import "./billingTeamNudge.scss";
-import { getDaysDifference } from "utils/DateTimeUtils";
+import { getDaysDifference } from "@requestly/utils";
 import { PRICING } from "features/pricing";
 
 export const BillingTeamNudge: React.FC = () => {
